@@ -8,21 +8,24 @@
             "name": "animation_exp",
             "cwd": "animation_exp",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "args": ["--verbose"]
         },
         {
             "name": "animation_exp (profile mode)",
             "cwd": "animation_exp",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "args": ["--verbose"]
         },
         {
             "name": "animation_exp (release mode)",
             "cwd": "animation_exp",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "args": ["--verbose"]
         }
     ]
 }
