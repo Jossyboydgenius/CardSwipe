@@ -1,6 +1,9 @@
 name: animation_exp
 description: A new Flutter project.
 
+environment:
+  sdk: '^3.5.0'
+
 dependencies:
   flutter:
     sdk: flutter
@@ -12,7 +15,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -38,8 +40,7 @@ flutter:
   - assets/avatars/avatar-4.jpg
   - assets/avatars/avatar-5.jpg
   - assets/avatars/avatar-6.jpg
- 
-  
+
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 
